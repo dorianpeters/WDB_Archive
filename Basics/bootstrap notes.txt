@@ -1,0 +1,55 @@
+Notes.
+
+For forms using bootstrap use:
+div class "form-group" (put label + input in div)
+input class "form-control"
+
+div class="container"
+div class="jumbotron"
+
+Nav bar itself:
+nav class="nav-bar navbar-default"
+
+Put Nav Bar elements in a container:
+div class "container"
+
+To add brand in top left corner, use:
+div class="navbar-header"
+  a class = "navbar-brand"
+
+
+To add addition links on left use:
+ul class = "nav navbar-nav"
+  li and a tag (for link)
+
+To add link on the right use:
+ul class = "nav navbar-nav navbar-right"
+  li and a tag (for link)
+
+To make hamburger icon work, must add bootstrap and jquery js files.
+
+To make items collapse into the hamburger use:
+div class="collapse navbar-collapse" AND id must match button data-target
+
+Place hamburger code under class = "navbar-header",
+Everything under it will collapse when window shrinks.
+
+GRID SYSTEM
+Every container/row based on 12 columns.
+
+div "container".
+  div class="row"
+    div class="col-lg-6"
+    div class="col-lg-6"
+  div class="row"
+    div class="col-lg-4"
+    div class="col-lg-4"
+    div class="col-lg-4"
+
+
+
+
+
+
+
+
